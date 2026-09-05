@@ -5,6 +5,6 @@ drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/at
 3. attempted to plot the energy curve but failed because the energy calculation did not converge for some bond lengths that were too long for PyPDF to cover
 4. tried the other way around - to reduce the bond length from 2.0 Angstrom to 1.0 Angstrom (both within the range of PYDFT convergence)
 5. attempted to plot the energy curve but failed because Hydrogens were facing inwards
-6. fixed the Hydrogens orientation (to face outward) and successfully drew the energy curve
+6. fixed the Hydrogens orientation (to face outward) and successfully drew the energy curve / obtained the equilibrium length of 1.5Angstrom which matches that of the database (https://cccbdb.nist.gov/calcbondcomp3x.asp?i=6&j=6&mi=58&bi=22)
 
 [Potential Energy Surface for Ethane (STO-3G)](Potential Energy Surface for Ethane (STO-3G).png)
