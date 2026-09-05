@@ -7,3 +7,4 @@ drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/at
 5. attempted to plot the energy curve but failed because Hydrogens were facing inwards
 6. fixed the Hydrogens orientation (to face outward) and successfully drew the energy curve
 
+[Potential Energy Surface for Ethane (STO-3G)](Potential Energy Surface for Ethane (STO-3G).png)
