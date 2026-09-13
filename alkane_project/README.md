@@ -1,4 +1,5 @@
-drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/attempts. --> can be found in alkane.py
+# Drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/attempts. 
+--> can be found in alkane.py
 
 1. obtained the coordinates of Ethane from Avogadro
 2. successfully read the input Avogadro file from Python
@@ -9,7 +10,8 @@ drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/at
 
 [Potential Energy Surface for Ethane (STO-3G)](Potential Energy Surface for Ethane (STO-3G).png)
 
-# Ethane C–C Bond PES and Vibrational Analysis --> can be found in vibfreq calc.py
+# Ethane C–C Bond PES and Vibrational Analysis 
+--> can be found in vibfreq calc.py
 
 ## Overview
 
