@@ -1,4 +1,4 @@
-drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/attempts.
+drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/attempts. --> can be found in alkane.py
 
 1. obtained the coordinates of Ethane from Avogadro
 2. successfully read the input Avogadro file from Python
@@ -8,3 +8,31 @@ drew a PES(Potential Energy Surface) of Ethane using PyDFT in following order/at
 6. fixed the Hydrogens orientation (to face outward) and successfully drew the energy curve / obtained the equilibrium length of 1.5Angstrom which matches that of the database (https://cccbdb.nist.gov/calcbondcomp3x.asp?i=6&j=6&mi=58&bi=22)
 
 [Potential Energy Surface for Ethane (STO-3G)](Potential Energy Surface for Ethane (STO-3G).png)
+
+# Ethane C–C Bond PES and Vibrational Analysis --> can be found in vibfreq calc.py
+
+## Overview
+
+A self-directed DFT project exploring the relationship between a molecular
+potential energy surface (PES), equilibrium bond length, force constant, and
+vibrational frequency.
+
+The C–C bond length of ethane (C₂H₆) was scanned using DFT, followed by a
+quadratic fit around the PES minimum.
+
+## Method
+
+- DFT with STO-3G basis set
+- C–C bond-length scan with fixed C–H geometry
+- Local quadratic PES fitting
+- Force constant from PES curvature
+- Harmonic approximation for vibrational frequency
+
+## Results
+
+| Quantity | Result |
+|---|---:|
+| Equilibrium C–C bond length | 1.517 Å |
+| Force constant | 1.12 Hartree/Å² |
+| Force constant | ~488 N/m |
+| Estimated C–C stretching frequency | ~1175 cm⁻¹ |
