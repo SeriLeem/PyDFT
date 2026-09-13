@@ -19,8 +19,9 @@ A self-directed DFT project exploring the relationship between a molecular
 potential energy surface (PES), equilibrium bond length, force constant, and
 vibrational frequency.
 
-The C–C bond length of ethane (C₂H₆) was scanned using DFT, followed by a
-quadratic fit around the PES minimum.
+A one-dimensional slice of ethane's PES was explored by varying the C–C bond
+length while keeping the remaining geometry fixed. A harmonic approximation
+was then used to estimate the C–C stretching frequency near equilibrium.
 
 ## Method
 
